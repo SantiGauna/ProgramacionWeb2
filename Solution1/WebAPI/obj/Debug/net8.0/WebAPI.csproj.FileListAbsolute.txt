@@ -33,3 +33,5 @@ C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación We
 C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\Santi\Solution1\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\Santi\Solution1\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\Santi\Solution1\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\Santi\Solution1\WebAPI\bin\Debug\net8.0\BLL.dll
+C:\Users\santi\OneDrive\Escritorio\Instituto Cervantes\2do año\Programación Web II\Santi\Solution1\WebAPI\bin\Debug\net8.0\BLL.pdb

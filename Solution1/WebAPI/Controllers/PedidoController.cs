@@ -1,32 +1,33 @@
 ﻿using Clases;
+using BLL;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace WebAPI.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class PedidoController : ControllerBase
     {
-        private static List<Pedido> _pedidos = new List<Pedido>
-        {
-            new Pedido { Id = 1, IdUsuario = 101 },
-            new Pedido { Id = 2, IdUsuario = 102 },
-            new Pedido { Id = 3, IdUsuario = 103 }
-        };
+        private readonly PedidoBLL pedidoDLL;
 
-        // GET: Pedido
+        public PedidoController()
+        {
+            pedidoDLL = new PedidoBLL();
+        }
+
+        // GET: api/Pedido
         [HttpGet]
         public List<Pedido> Get()
         {
-            return _pedidos;
+            return pedidoDLL.ObtenerTodosLosPedidos();
         }
 
-        // GET: Pedido/5
+        // GET: api/Pedido/{id}
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<Pedido> Get(int id)
         {
-            var pedido = _pedidos.Find(p => p.Id == id);
+            var pedido = pedidoDLL.ObtenerPedidoPorId(id);
             if (pedido == null)
             {
                 return NotFound();
@@ -34,45 +35,35 @@ namespace WebAPI.Controllers
             return Ok(pedido);
         }
 
-        // POST: Pedido
+        // POST: api/Pedido
         [HttpPost]
-        public IActionResult Post([FromBody] Pedido pedido)
+        public ActionResult<Pedido> Post([FromBody] Pedido pedido)
         {
-            if (pedido == null)
-            {
-                return BadRequest();
-            }
-
-            _pedidos.Add(pedido);
+            pedidoDLL.AgregarPedido(pedido);
             return CreatedAtAction(nameof(Get), new { id = pedido.Id }, pedido);
         }
 
-        // PUT: Pedido/5
+        // PUT: api/Pedido/{id}
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Pedido pedido)
+        public void Put(int id, [FromBody] Pedido pedido)
         {
-            var index = _pedidos.FindIndex(p => p.Id == id);
-            if (index == -1)
+            if (id != pedido.Id)
             {
-                return NotFound();
+                BadRequest();
             }
-
-            _pedidos[index] = pedido;
-            return NoContent();
+            pedidoDLL.ActualizarCantidad(id, pedido.Cantidad);
         }
 
-        // DELETE: Pedido/5
+        // DELETE: api/Pedido/{id}
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var index = _pedidos.FindIndex(p => p.Id == id);
-            if (index == -1)
+            if (!pedidoDLL.EliminarPedido(id))
             {
                 return NotFound();
             }
-
-            _pedidos.RemoveAt(index);
             return NoContent();
         }
     }
+
 }

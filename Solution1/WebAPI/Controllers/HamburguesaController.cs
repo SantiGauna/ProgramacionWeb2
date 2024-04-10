@@ -2,32 +2,34 @@ using Clases;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using BLL;
 
-namespace WebAPI.Controllers
+
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class HamburguesaController : ControllerBase
     {
-        private static List<Hamburguesa> _hamburguesas = new List<Hamburguesa>
-        {
-            new Hamburguesa { IdHamburguesa = 1, Nombre = "Clásica", Precio = 5.99 },
-            new Hamburguesa { IdHamburguesa = 2, Nombre = "Doble carne", Precio = 8.99 },
-            new Hamburguesa { IdHamburguesa = 3, Nombre = "Vegetariana", Precio = 6.49 }
-        };
+        private readonly HamburguesaBLL hamburguesaDLL;
 
-        // GET: Hamburguesa
+        public HamburguesaController()
+        {
+            hamburguesaDLL = new HamburguesaBLL();
+        }
+
+        // GET: api/Hamburguesa
         [HttpGet]
         public List<Hamburguesa> Get()
         {
-            return _hamburguesas;
+            return hamburguesaDLL.ObtenerTodasLasHamburguesas();
         }
 
-        // GET: Hamburguesa/5
+        // GET: api/Hamburguesa/{id}
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public ActionResult<Hamburguesa> Get(int id)
         {
-            var hamburguesa = _hamburguesas.Find(h => h.IdHamburguesa == id);
+            var hamburguesa = hamburguesaDLL.ObtenerHamburguesaPorId(id);
             if (hamburguesa == null)
             {
                 return NotFound();
@@ -35,44 +37,34 @@ namespace WebAPI.Controllers
             return Ok(hamburguesa);
         }
 
-        // POST: Hamburguesa
+        // POST: api/Hamburguesa
         [HttpPost]
-        public IActionResult Post([FromBody] Hamburguesa hamburguesa)
+        public ActionResult<Hamburguesa> Post([FromBody] Hamburguesa hamburguesa)
         {
-            if (hamburguesa == null)
-            {
-                return BadRequest();
-            }
-
-            _hamburguesas.Add(hamburguesa);
+            hamburguesaDLL.AgregarHamburguesa(hamburguesa);
             return CreatedAtAction(nameof(Get), new { id = hamburguesa.IdHamburguesa }, hamburguesa);
         }
 
-        // PUT: Hamburguesa/5
+        // PUT: api/Hamburguesa/{id}
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Hamburguesa hamburguesa)
         {
-            var index = _hamburguesas.FindIndex(h => h.IdHamburguesa == id);
-            if (index == -1)
+            if (id != hamburguesa.IdHamburguesa)
             {
-                return NotFound();
+                return BadRequest();
             }
-
-            _hamburguesas[index] = hamburguesa;
+            hamburguesaDLL.ActualizarHamburguesa(hamburguesa);
             return NoContent();
         }
 
-        // DELETE: Hamburguesa/5
+        // DELETE: api/Hamburguesa/{id}
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var index = _hamburguesas.FindIndex(h => h.IdHamburguesa == id);
-            if (index == -1)
+            if (!hamburguesaDLL.EliminarHamburguesa(id))
             {
                 return NotFound();
             }
-
-            _hamburguesas.RemoveAt(index);
             return NoContent();
         }
     }

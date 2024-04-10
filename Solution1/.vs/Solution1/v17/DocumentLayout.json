@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\webapi\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\webapi\\controllers\\hamburguesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\hamburguesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\webapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E00EE227-4453-48E3-A676-E260D28E1796}|BLL\\BLL.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\bll\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00EE227-4453-48E3-A676-E260D28E1796}|BLL\\BLL.csproj|solutionrelative:bll\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|solutionrelative:clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\clases\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|solutionrelative:clases\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\clases\\hamburguesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|solutionrelative:clases\\hamburguesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\clases\\ingredientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60DDFFC-E525-4C3D-8455-67762198A231}|Clases\\Clases.csproj|solutionrelative:clases\\ingredientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|c:\\users\\santi\\onedrive\\escritorio\\instituto cervantes\\2do a\u00F1o\\programaci\u00F3n web ii\\santi\\solution1\\webapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A33E7638-F4D0-4B6C-BAC8-A9D0F8286129}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,32 +22,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Ingredientes.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Ingredientes.cs",
-              "RelativeDocumentMoniker": "Clases\\Ingredientes.cs",
-              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Ingredientes.cs",
-              "RelativeToolTip": "Clases\\Ingredientes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UsuarioBLL.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\BLL\\UsuarioBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\UsuarioBLL.cs",
+              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\BLL\\UsuarioBLL.cs",
+              "RelativeToolTip": "BLL\\UsuarioBLL.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswB0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T17:31:51.645Z",
+              "WhenOpened": "2024-04-10T15:23:30.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Pedido.cs",
-              "RelativeDocumentMoniker": "Clases\\Pedido.cs",
-              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Pedido.cs",
-              "RelativeToolTip": "Clases\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Usuario.cs",
+              "RelativeDocumentMoniker": "Clases\\Usuario.cs",
+              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Usuario.cs",
+              "RelativeToolTip": "Clases\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T23:09:19.056Z",
+              "WhenOpened": "2024-04-10T15:23:25.142Z",
               "EditorCaption": ""
             },
             {
@@ -74,61 +62,9 @@
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\WebAPI\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAzwE4AAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T00:02:42.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PedidoController.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\WebAPI\\Controllers\\PedidoController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PedidoController.cs",
-              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\WebAPI\\Controllers\\PedidoController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\PedidoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T23:49:03.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HamburguesaController.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\WebAPI\\Controllers\\HamburguesaController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\HamburguesaController.cs",
-              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\WebAPI\\Controllers\\HamburguesaController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\HamburguesaController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAywE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T23:12:24.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Usuario.cs",
-              "RelativeDocumentMoniker": "Clases\\Usuario.cs",
-              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Usuario.cs",
-              "RelativeToolTip": "Clases\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T23:04:53.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Hamburguesa.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Hamburguesa.cs",
-              "RelativeDocumentMoniker": "Clases\\Hamburguesa.cs",
-              "ToolTip": "C:\\Users\\santi\\OneDrive\\Escritorio\\Instituto Cervantes\\2do a\u00F1o\\Programaci\u00F3n Web II\\Santi\\Solution1\\Clases\\Hamburguesa.cs",
-              "RelativeToolTip": "Clases\\Hamburguesa.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T22:47:50.358Z",
+              "WhenOpened": "2024-04-10T15:22:12.969Z",
               "EditorCaption": ""
             }
           ]
